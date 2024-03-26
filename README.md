@@ -16,11 +16,11 @@ terraform apply --auto-approve
 
 #### Once EKS and nodes get craeted then got to the "kubectl server" , execute these below commands
 
-'''
+```
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
-'''
+```
 
 #### Configure AWS credentials
 
